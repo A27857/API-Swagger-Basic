@@ -1,0 +1,40 @@
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.csprojAssemblyReference.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.exe
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.deps.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.runtimeconfig.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.runtimeconfig.dev.json
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\C# ASP .Net Core API.pdb
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.RazorTargetAssemblyInfo.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.csproj.CopyComplete
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\staticwebassets\C# ASP .Net Core API.StaticWebAssets.Manifest.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\staticwebassets\C# ASP .Net Core API.StaticWebAssets.xml
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.pdb
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.genruntimeconfig.cache
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LENOVO\Documents\C# ASP .Net Core API\obj\Debug\netcoreapp3.1\C# ASP .Net Core API.MvcApplicationPartsAssemblyInfo.cs
