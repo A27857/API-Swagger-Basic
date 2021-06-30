@@ -1,4 +1,4 @@
-using C__ASP_.Net_Core_API.Models;
+using API29v6v21.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace C__ASP_.Net_Core_API
+namespace API29v6v21
 {
     public class Startup
     {
@@ -35,8 +35,11 @@ namespace C__ASP_.Net_Core_API
                 app.UseDeveloperExceptionPage();
             }
             app.UseSwagger();
-            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            c.RoutePrefix = string.Empty; });
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = string.Empty;
+            });
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -47,7 +50,7 @@ namespace C__ASP_.Net_Core_API
             {
                 endpoints.MapControllers();
             });
-            
+
         }
     }
 }

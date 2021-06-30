@@ -1,13 +1,12 @@
 using System.Collections.Generic;
-using C__ASP_.Net_Core_API.Models;
+using API29v6v21.Models;
 using Microsoft.AspNetCore.Mvc;
-using C__ASP_.Net_Core_API.Services;
+using API29v6v21.Services;
 
-namespace C__ASP_.Net_Core_API.Controllers
+namespace API29v6v21.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-
     public class TaskController : ControllerBase
     {
         private SampleWebApiContext _context;
@@ -16,32 +15,32 @@ namespace C__ASP_.Net_Core_API.Controllers
             _context = contex;
         }
 
-        [HttpGet("GetAllTask")]
+        [HttpGet("Tasks")]
         public ActionResult<List<TaskModel>> GetAllTask()
         {
             var item = SampleWebApiServices.GetAll();
             return item;
         }
 
-        [HttpGet("GetTask/{id}")]
+        [HttpGet("Task/{id}")]
         public ActionResult<TaskModel> GetTask(int id)
         {
             var model = SampleWebApiServices.Get(id);
 
             if (model == null)
-                return NotFound();
+                return null;
 
             return model;
         }
 
-        [HttpPost("CreateTask")]
+        [HttpPost("Task")]
         public IActionResult CreateTask(TaskModel model)
         {
             SampleWebApiServices.Add(model);
             return CreatedAtAction(nameof(CreateTask), new { id = model.Id }, model);
         }
 
-        [HttpPost("CreateTasks")]
+        [HttpPost("Tasks")]
         public IActionResult CreateTasks(List<TaskModel> model)
         {
             SampleWebApiServices.AddListTasks(model);
@@ -55,50 +54,49 @@ namespace C__ASP_.Net_Core_API.Controllers
             // return Ok();
         }
 
-
-        [HttpPut("Edit/{id}")]
+        [HttpPut("Task/{id}")]
         public IActionResult Update(int id, TaskModel model)
         {
             if (id != model.Id)
             {
-                return BadRequest();
+                return null;
             }
             var modeled = SampleWebApiServices.Get(id);
             if (modeled is null)
             {
-                return NotFound();
+                return null;
             }
 
             SampleWebApiServices.Update(model);
 
-            return NoContent();
+            return Ok("Update Successfully!");
         }
 
-        [HttpDelete("Delete/{id}")]
-        public IActionResult Delete(int id)
+        [HttpDelete("Task/{id}")]
+        public ActionResult<bool> Delete(int id)
         {
             var model = SampleWebApiServices.Get(id);
 
             if (model is null)
-                return NotFound();
+                return false;
 
             SampleWebApiServices.Delete(id);
 
-            return NoContent();
+            return true;
         }
 
-        [HttpDelete("DeleteTasks")]
-        public IActionResult DeleteTasks(List<int> ids)
+        [HttpDelete("Tasks")]
+        public ActionResult<bool> DeleteTasks(List<int> ids)
         {
             for (var i = 0; i < ids.Count; i++)
             {
                 var model = SampleWebApiServices.Get(ids[i]);
                 if (model is null)
-                    return NotFound();
+                    return false;
 
                 SampleWebApiServices.Remove(model);
             }
-            return NoContent();
+            return true;
         }
     }
 }

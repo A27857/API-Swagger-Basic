@@ -38,7 +38,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[*, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
